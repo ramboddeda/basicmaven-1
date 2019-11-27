@@ -94,11 +94,14 @@
     </pluginManagement>
   </build>
   <distributionManagement>    
-    <snapshotRepository>
-      <id>nexus</id>
-
-      <url>http://3.133.130.98:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
+               <snapshotRepository>
+                    <id>nexus-snapshots</id>
+                    <url>http://52.14.32.47:8081/repository/maven-snapshots/</url>
+               </snapshotRepository>
+               <repository>
+                    <id>nexus-releases</id>
+                    <url>http://52.14.32.47:8081/repository/maven-releases/</url>
+               </repository>
   </distributionManagement>
 
 </project>
